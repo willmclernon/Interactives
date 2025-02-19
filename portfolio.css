@@ -1,10 +1,36 @@
-/*desktop*/
-p {
-  line-height: 2em;
-  font-size: 1.2em;
-  padding-bottom: 10px;
+body{
+  padding-left: 10%;
+  padding-right: 10%;
+  background-color: lightblue;
 }
 
+h1{
+  font-size: 4em;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px;
+  text-align: center;
+}
+
+.img-container{
+  margin: auto;
+}
+
+img{
+  display: block;
+  margin:auto;
+}
+
+h2{
+  font-size: 2em;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px;
+  text-align: center;
+}
+
+
+/*desktop*/
 #content {
   width: 50%;
   margin: auto;
@@ -26,7 +52,6 @@ p {
 #nav-bar {
   display: flex;
   flex-direction: row;
-  background-color: lightblue;
 }
 
 .nav-button {
@@ -34,27 +59,9 @@ p {
 }
 
 .nav-button a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-weight: bold;
-}
-
-div {border: 1px darkblue;}
-Body{
-  padding left: 20%;
-  padding right: 20%;
-  background-color: #ADD8E6
-}
-
-H1{
-  font-size: 2.5em;
-  color:#000000;
-  font-family: times new roman
-    }
-
-  #byline {
-  font size:2.5em;
-  color:#000000;
 }
 
 P{
@@ -64,29 +71,14 @@ P{
 }
 
 .img-container {
-  width:100%;
+  width:50%;
 }
 
 img {
   margin:auto; 
 }
 
-.cutline{
-  font-size:1em; 
-  colour: #00000;
-}
 
-#contact {
-  border: 1px solid black;
-  padding: 20px;
-  font-family:roboto;
-}
-
-ol {
-  font-size:1.5em;
-  padding 10px;
-  font-family:italic
-}
 
 #content{
   width:50%;
@@ -101,10 +93,3 @@ ol {
 #nav-button{
 margin: auto;
 }
-
-/*phone*/
-@media (orientation: portrait) {
-  #content {
-      width: 100%;
-      line-height: 1.5em;
-      font-size: 1.5em;}
