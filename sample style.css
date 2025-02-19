@@ -1,0 +1,65 @@
+Body{
+    padding left: 20%;
+    padding right: 20%;
+    background-color: #ADD8E6
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+  
+  H1{
+    font-size: 2.5em;
+    color:#000000;
+    font-family: times new roman
+      }
+  #byline {
+    font size:2.5em;
+    color:#000000;
+  }
+  
+  P{
+    font-size:1.5em;
+    line-height: 1.5em;
+    padding bottom;40px;
+  }
+  
+  .img-container {
+    width:100%;
+  }
+  
+  img {
+    margin:auto;
+    
+  }
+  
+  .cutline{
+    font-size:1em; 
+    colour: #00000;
+  }
+  
+  #contact {
+    border: 1px solid black;
+    padding: 20px;
+    font-family:roboto;
+  }
+  
+  ol {
+    font-size:1.5em;
+    padding 10px;
+    font-family:italic
+  }
+  
+  #content{
+    width:50%;
+    margin:auto;
+  }
+  
+  @ media (orientation:portrait) {
+    #content {
+      width: 50%
+    }
+  
